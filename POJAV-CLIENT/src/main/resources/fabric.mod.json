@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "pojav",
+  "version": "${version}",
+  "name": "POJAV CLIENT",
+  "description": "A client-side utility mod with Click GUI, zoom, fullbright, and PvP HUD widgets.",
+  "authors": ["POJAV"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.pojav.client.PojavClient"]
+  },
+  "mixins": ["pojav.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

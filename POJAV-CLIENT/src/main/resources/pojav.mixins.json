@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.pojav.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "TitleScreenMixin",
+    "LightmapTextureManagerMixin",
+    "MouseMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
